@@ -17,7 +17,7 @@
     "babel-jest": "24.1.0",
     "jest": "24.1.0",
     "metro-react-native-babel-preset": "0.51.1",
-    "react-native-monorepo-helper": "^0.2.4",
+    "react-native-monorepo-helper": "flisboac/react-native-monorepo-helper##5",
     "react-test-renderer": "16.6.3"
   },
   "jest": {

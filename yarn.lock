@@ -3939,9 +3939,9 @@ react-is@^16.6.3, react-is@^16.8.1:
   version "16.8.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.2.tgz#09891d324cad1cb0c1f2d91f70a71a4bee34df0f"
 
-react-native-monorepo-helper@^0.2.4:
+react-native-monorepo-helper@flisboac/react-native-monorepo-helper##5:
   version "0.2.4"
-  resolved "https://registry.yarnpkg.com/react-native-monorepo-helper/-/react-native-monorepo-helper-0.2.4.tgz#ede4834323275ed0b38da8fd59cce2f76f2c38a8"
+  resolved "https://codeload.github.com/flisboac/react-native-monorepo-helper/tar.gz/b512a13a1600fb7e03a0124863ab907ca50a81c1"
   dependencies:
     chalk "^2.2.0"
     glob "^7.1.3"

@@ -5,14 +5,15 @@ const projectRoot = __dirname;
 const monorepoRoot = path.resolve(projectRoot, "../../");
 
 const defaultConfig = {
-    // projectRoot,
+    projectRoot,
     watchFolders: [
         monorepoRoot,
     ],
 };
 
 const helperConfig = metroConfigHelper(projectRoot)
-    .defaultConfig(defaultConfig)
+    // .defaultConfig(defaultConfig)
     .generate();
 
+console.log(helperConfig);
 module.exports = helperConfig;

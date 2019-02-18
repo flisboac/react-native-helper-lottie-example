@@ -14,8 +14,12 @@
     ]
   },
   "scripts": {
+    "build:helper": "cd node_modules/react-native-monorepo-helper && yarn && yarn build",
+    "prestart:native": "yarn build:helper",
     "start:native": "yarn workspace native start",
+    "prestart:native:android": "yarn build:helper",
     "start:native:android": "yarn workspace native start:android",
+    "prestart:test:native": "yarn build:helper",
     "test:native": "yarn workspace native test"
   }
 }
