@@ -10,9 +10,7 @@
     ],
     "nohoist": [
       "**/react-native",
-      "**/react-native/**",
-      "**/lottie-react-native",
-      "**/lottie-react-native/**"
+      "**/lottie-react-native"
     ]
   },
   "scripts": {
